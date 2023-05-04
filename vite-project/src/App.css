@@ -62,3 +62,13 @@ main {
     border: none;
     cursor: pointer;
 }
+
+.meme--container {
+    display: flex;
+    justify-content: center;
+    padding-block: 36px;
+}
+
+.meme--image {
+    max-width: 100%;
+}
