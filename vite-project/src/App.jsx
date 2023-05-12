@@ -1,18 +1,13 @@
-import React from "react"
-import "./App.css"
-import Header from "./components/Header.jsx"
-import Meme from "./components/Meme.jsx"
-
-
-
+import React from "react";
+import Header from "./components/Header"
+import Meme from "./components/Meme"
+import "./App.css";
 export default function App() {
-    // <Header />
-    // <Meme />
-    return (
-        <div>
-            <Header />
-            <Meme />
-        </div>
-        
-    )
+
+  return (
+    <>
+      <Header />
+      <Meme />
+    </>
+  );
 }
